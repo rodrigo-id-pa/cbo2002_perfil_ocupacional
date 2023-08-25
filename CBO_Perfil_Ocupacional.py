@@ -39,7 +39,7 @@ computerName = os.environ['USERNAME']
 userName = os.environ['COMPUTERNAME']
 
 # pegando os arquivos no Output
-output_ = r'C:/Users/'+computerName+'/OneDrive - Firjan/'+userName+'/DIDAD/RPA 017 - CBO/Output/'
+output_ = r'C:/Users/'+computerName+'/OneDrive/'+userName+'
 
 #listando os arquivos na pasta
 arquivos_ = os.listdir(output_)
